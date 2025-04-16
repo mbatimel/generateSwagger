@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 const (

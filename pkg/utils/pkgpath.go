@@ -15,7 +15,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mbatimel/generateSwaggerpkg/logger"
+	"github.com/mbatimel/generateSwagger/pkg/logger"
 )
 
 var (

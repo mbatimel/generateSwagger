@@ -6,7 +6,7 @@ package utils
 import (
 	. "github.com/dave/jennifer/jen"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 )
 
 func DictByNormalVariables(fields []types.Variable, normals []types.Variable) Dict {

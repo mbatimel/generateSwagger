@@ -10,12 +10,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 
 	. "github.com/dave/jennifer/jen" // nolint:staticcheck
 
-	"github.com/mbatimel/generateSwaggerpkg/tags"
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/tags"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 type method struct {

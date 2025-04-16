@@ -1,6 +1,6 @@
 package astra
 
-import "github.com/mbatimel/generateSwaggerpkg/astra/types"
+import "github.com/mbatimel/generateSwagger/pkg/astra/types"
 
 func mergeImports(bunch ...[]*types.Import) []*types.Import {
 

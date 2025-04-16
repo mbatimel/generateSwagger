@@ -9,9 +9,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 
-	"github.com/mbatimel/generateSwaggerpkg/tags"
+	"github.com/mbatimel/generateSwagger/pkg/tags"
 )
 
 type clientTS struct {

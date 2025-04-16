@@ -15,7 +15,7 @@ import (
 
 	"github.com/fatih/structtag"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 )
 
 var (

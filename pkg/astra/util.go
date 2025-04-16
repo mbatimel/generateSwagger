@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 )
 
 // Opens and parses file by name and return information about it.

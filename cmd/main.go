@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -9,9 +8,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/mbatimel/generateSwaggerpkg/generator"
-	"github.com/mbatimel/generateSwaggerpkg/logger"
-	"github.com/mbatimel/generateSwaggerpkg/skeleton"
+	"github.com/mbatimel/generateSwagger/pkg/generator"
+	"github.com/mbatimel/generateSwagger/pkg/logger"
+	"github.com/mbatimel/generateSwagger/pkg/skeleton"
 )
 
 var (

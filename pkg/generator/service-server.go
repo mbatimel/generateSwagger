@@ -10,7 +10,7 @@ import (
 
 	. "github.com/dave/jennifer/jen" // nolint:staticcheck
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 )
 
 func (svc *service) renderServer(outDir string) (err error) {

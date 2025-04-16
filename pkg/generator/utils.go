@@ -15,12 +15,12 @@ import (
 	. "github.com/dave/jennifer/jen" // nolint:staticcheck
 	"github.com/pkg/errors"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra"
+	"github.com/mbatimel/generateSwagger/pkg/astra"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 
-	"github.com/mbatimel/generateSwaggerpkg/mod"
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/mod"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 type pair[K, V any] struct {

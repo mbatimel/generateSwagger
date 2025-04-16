@@ -16,8 +16,8 @@ import (
 	"github.com/valyala/fasthttp"
 	"gopkg.in/yaml.v3"
 
-	"github.com/mbatimel/generateSwaggerpkg/tags"
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/tags"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 const (

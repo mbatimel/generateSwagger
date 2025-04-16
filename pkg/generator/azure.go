@@ -6,7 +6,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 type azure struct {

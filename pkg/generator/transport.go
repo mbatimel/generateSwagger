@@ -16,10 +16,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra"
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
-	"github.com/mbatimel/generateSwaggerpkg/mod"
-	"github.com/mbatimel/generateSwaggerpkg/tags"
+	"github.com/mbatimel/generateSwagger/pkg/astra"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/mod"
+	"github.com/mbatimel/generateSwagger/pkg/tags"
 )
 
 const keyCode = "code"

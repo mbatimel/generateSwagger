@@ -8,7 +8,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/mbatimel/generateSwaggerpkg/logger/format"
+	"github.com/mbatimel/generateSwagger/pkg/logger/format"
 )
 
 var Log Logger

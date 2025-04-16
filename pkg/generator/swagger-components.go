@@ -13,13 +13,13 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra"
+	"github.com/mbatimel/generateSwagger/pkg/astra"
 
-	"github.com/mbatimel/generateSwaggerpkg/astra/types"
+	"github.com/mbatimel/generateSwagger/pkg/astra/types"
 
-	"github.com/mbatimel/generateSwaggerpkg/mod"
-	"github.com/mbatimel/generateSwaggerpkg/tags"
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/mod"
+	"github.com/mbatimel/generateSwagger/pkg/tags"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 func (doc *swagger) registerStruct(name, pkgPath string, mTags tags.DocTags, fields []types.StructField) (structType types.Struct) {

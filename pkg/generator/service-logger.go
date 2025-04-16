@@ -12,8 +12,8 @@ import (
 
 	. "github.com/dave/jennifer/jen" // nolint:staticcheck
 
-	"github.com/mbatimel/generateSwaggerpkg/tags"
-	"github.com/mbatimel/generateSwaggerpkg/utils"
+	"github.com/mbatimel/generateSwagger/pkg/tags"
+	"github.com/mbatimel/generateSwagger/pkg/utils"
 )
 
 func (svc *service) renderLogger(outDir string) (err error) {

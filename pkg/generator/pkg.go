@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mbatimel/generateSwaggerpkg/mod"
+	"github.com/mbatimel/generateSwagger/pkg/mod"
 )
 
 //go:embed ts/*
