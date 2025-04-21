@@ -183,11 +183,11 @@ services:
 						Schema:      doc.walkVariable(ret.Name, service.pkgPath, ret.Type, nil),
 					}
 				}
-			}
+			}			
 			if service.tags.Contains(tagServerJsonRPC) && !method.tags.Contains(tagMethodHTTP) {
 				postMethod := &swOperation{
 					Summary:     method.tags.Value(tagSummary),
-					Description: method.tags.Value(tagDesc),
+					
 					Parameters:  parameters,
 					Tags:        serviceTags,
 					Deprecated:  method.tags.Contains(tagDeprecated),
@@ -212,6 +212,9 @@ services:
 						},
 					},
 				}
+				descLines := strings.Split(method.tags.Value(tagDesc), "|")
+				postMethod.Description = strings.Join(descLines, "\n")
+				
 				swaggerDoc.Paths[method.jsonrpcPath()] = swPath{Post: postMethod}
 			} else if service.tags.Contains(tagServerHTTP) && method.tags.Contains(tagMethodHTTP) {
 				doc.log.WithField("module", "swagger").Infof("service %s append HTTP method %s", serviceTags, method.Name)
@@ -223,7 +226,6 @@ services:
 				responseContentType := method.tags.Value(tagResponseContentType, contentJSON)
 				httpMethod := &swOperation{
 					Summary:     method.tags.Value(tagSummary),
-					Description: method.tags.Value(tagDesc),
 					Parameters:  parameters,
 					Tags:        serviceTags,
 					Deprecated:  method.tags.Contains(tagDeprecated),
@@ -240,6 +242,9 @@ services:
 						},
 					},
 				}
+				descLines := strings.Split(method.tags.Value(tagDesc), "|")
+				httpMethod.Description = strings.Join(descLines, "\n")
+				
 				if len(method.arguments()) != 0 {
 					httpMethod.RequestBody = &swRequestBody{
 						Content: doc.clearContent(swContent{

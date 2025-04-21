@@ -28,6 +28,7 @@ type swPath struct {
 type swOperation struct {
 	Tags        []string       `json:"tags,omitempty" yaml:"tags,omitempty"`
 	Summary     string         `json:"summary,omitempty" yaml:"summary,omitempty"`
+	// 'klasdflk;asj
 	Description string         `json:"description,omitempty" yaml:"description,omitempty"`
 	OperationID string         `json:"operationId,omitempty" yaml:"operationId,omitempty"`
 	Consumes    []string       `json:"consumes,omitempty" yaml:"consumes,omitempty"`
