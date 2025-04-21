@@ -1,7 +1,7 @@
 # Цель
 
 Генератор `sg` предназначен для того, чтобы избавить разработчика от необходимости заниматься рутиной(точнее генерить сваггер))))).
-
+Создан для генирации .yaml файлов для компании Wildberries
 # Генерация swagger
 
 
@@ -9,7 +9,7 @@
 команду:
 
 ```bash
-sg swagger --services . --outFile ../api/swagger.yaml
+sg sswagger --services . --outFile ../test_swaggers/externalapi/swagger.yaml
 ```
 
 Где,
